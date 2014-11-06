@@ -5,7 +5,7 @@ This plugin for Gradle allows you use the git flow to release your project to re
 ```groovy
 buildscript {
   repositories {
-    jcenter()
+    //your repo
   }
   dependencies {
     classpath 'cn.thinkjoy.gradle.plugins:gradle-gitflow-plugin:1.0.1'
