@@ -23,3 +23,6 @@ You must specify the `version` property before executing any gitflow commands.
 only implements follow fetures:
 * gradle releaseStart   
 * gradle releaseFinish 
+
+This plugin is migrate from the gitflow-maven-plugin. 
+
