@@ -1,4 +1,4 @@
-# Grails Gitflow Plugin
+# Gradle Gitflow Plugin
 
 This plugin for Gradle allows you use the git flow to release your project to repository. To use it, simply include the required JARs via `buildscript {}` and 'apply' the plugin:
 
