@@ -3,7 +3,7 @@
  */
 buildscript {
 	repositories {
-		mavenLocal()
+		mavenCenter()
 		maven { 
 			url 'http://repo.thinkjoy.local/content/groups/public/'
 		} 
@@ -24,7 +24,12 @@ apply plugin: 'maven-publish'
 apply plugin: 'maven-publish-auth'
 
 
-repositories { maven {  url 'http://repo.thinkjoy.local/content/groups/public/'  } }
+repositories { 
+	mavenCenter()
+	maven {  
+		url 'http://repo.thinkjoy.local/content/groups/public/'  
+	} 
+}
 
 dependencies {
 	compile gradleApi()
